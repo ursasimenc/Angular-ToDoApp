@@ -1,0 +1,22 @@
+$accent: rgb(196, 57, 57);
+$bg: #f5f5f5;
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: $bg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $accent;
+  font-family: inherit;
+}
